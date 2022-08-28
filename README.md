@@ -16,13 +16,4 @@ If we have the discount factor at the first offset date of a mod group, then, us
 
 Once we independently apply the above procedure for each of the three mod groups, we end up with three series of discount factors at three disjoint series of offset dates. We also have the discount factors at the cash dates. We form the final set of curve anchor dates from all offset dates and all cash dates. So, we obtain discount factors at all anchor dates. At any intermediate date we produce a discount factor by interpolating between the discount factors at the nearest (left and right) neighboring anchor dates.
 
-From market futures contract yields, using the correct conventions, we can easily determine forward rates for the corresponding term, and, accordingly, the forward discount factors (wealth factors).
-
-
-Reference:
-
-https://finpricing.com/lib/EqConvertible.html
-
-https://zenodo.org/record/6671596#.YrCdCnYpBD8
-
-https://zenodo.org/record/6671596/files/shortTermCurve.pdf
+From market futures contract yields (see https://finpricing.com/lib/FiZeroBond.html), using the correct conventions, we can easily determine forward rates for the corresponding term, and, accordingly, the forward discount factors (wealth factors).
